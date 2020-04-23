@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<hmtl lang="en">
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>House Registration</title>
+    <link href="style_house_registration.css" rel="stylesheet" type="text/css">
+    <script src="session-conf.js"></script>
+    <script src="house-registration.js"></script>
+  </head>
+
+  <body>
+    <div id="top-menu">
+      <a href="index.php"><img src="home-icon.png"></img></a>
+      <a href="house-registration.html" id="housereg" class="links">House Registration</a>
+      <a href="Login.html" id="login" class="links">Login</a>
+      <a href="logout.php" id="logout" class="links">Log Out</a>
+      <a href="sign-up.html" id="signup" class="links">Sign-Up</a>
+    </div>
+    <hr>
+
+    <h1>House Registration</h1>
+    <form action="/house-registration.php" method="post" name="myForm" id="mainform" enctype="multipart/form-data">
+      <b>Title:</b><br>
+      <input name="title" type="text" class="writeon" required placeholder="Title" onclick="this.placeholder = ''"><br>
+      <br>
+      <b>What type of house do you own?</b><br>
+      <select id="house_type" name="type" required class="writeon">
+    				<option name="whole_house">Whole House</option>
+    				<option name="private_room">Private Room</option>
+    				<option name="communal_room">Communal Room</option>
+    	</select>
+      <br><b>Visitors?</b><br>
+      <select id="visitors" name="visitors"  required class="writeon">
+    				<option>1 Visitor</option>
+    				<option>2 Visitors</option>
+    				<option>3 Visitors</option>
+    				<option>4 Visitors</option>
+    				<option>5 Visitors</option>
+    				<option>6 Visitors</option>
+    				<option>7 Visitors</option>
+    				<option>8 Visitors</option>
+    				<option>9 Visitors</option>
+    				<option>10 Visitors</option>
+    				<option>11 Visitors</option>
+    				<option>12 Visitors</option>
+    				<option>13 Visitors</option>
+    				<option>14 Visitors</option>
+    				<option>15 Visitors</option>
+    				<option>16 Visitors</option>
+    			</select><br>
+      <br>
+      <b>Where is your house located?</b><br>
+      <input type="text" id="area" class="writeon" name="location" required placeholder="Athens, Greece" onclick="this.placeholder = ''"><br>
+      <br>
+      <b>House description:</b><br>
+      <input name="description" type="text" class="writeon" required placeholder="Description" onclick="this.placeholder = ''"><br />
+      <br>
+      <b>Check-in time:</b><br>
+      <input name="checkin" type="time" class="writeon" required><br>
+      <br>
+      <b>Check-out time:</b><br>
+      <input name="checkout" type="time" class="writeon" required><br>
+      <br>
+      <b>Price per Night:</b><br>
+      <input name="price_per_night" type="number" step="0.01" class="writeon" required><br>
+      <br>
+      <b>House picture (max 16 MB):</b><br>
+      <input name="picture" type="file" id="file" accept=".jpeg, .png" onchange="sizeCheck()" required ><br>
+      <br>
+      <input name="submit" type="submit" id="submit_button" value="Submit">
+
+    </form>
+
+  </body>

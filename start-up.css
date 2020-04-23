@@ -1,0 +1,58 @@
+body{
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+}
+
+
+.main {
+	color :black;
+  max-width:100px;
+  margin-left:250px;
+  padding-left: 200px;
+  text-align:center;
+}
+.towns{ 
+		max-width:100px;
+		margin-left:180px;
+		padding-left: 200px;
+		background-position: center;
+		text-align:center;
+}
+	
+div {
+  width: 800px;
+  margin: 10px
+}
+
+ol {
+  color: #ccc;
+  list-style-type: none;
+}
+
+ol li {
+  position: relative;
+  font: bold italic 45px/1.5 Helvetica, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
+
+li p {
+  font: 12px/1.5 Helvetica, sans-serif;
+  padding-left: 60px;
+  color: #555;
+}
+
+span {
+  position: relative;
+}
+
+html{
+  height: 100%;
+}
+h1{
+  font-weight: 700;
+  font-size: 5em;
+}
+hr{
+  width: 500px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sign-up Form</title>
+  <script src="sign-up.js"></script>
+  <link rel="stylesheet" href="sign-up.css">
+</head>
+<body>
+  <a id="spitaki" href="index.php"><img src="home-icon.png"></img></a>
+  <hr>
+  <div id="wrapper">
+    <div class="join">Sign-up</div>
+    <div class="clr"></div>
+    <div class="login-options"></div>
+    <div class="clr">
+      <hr />
+    </div>
+    <div class="forms" id="form">
+        <form action="/sing-up.php" method="post" name="myForm" enctype="multipart/form-data">
+        <input name="username" type="text" required placeholder="Enter your username" size="70" id="username">
+        <input name="password" id="password" type="password" minlength="8"placeholder="Enter a password" size="70"  required >
+        <input name="conf_password" id="conf_password" type="password" placeholder="Repeat password" onkeyup="confPass()" required > <br>
+        <input name="fname" type="text" placeholder="Enter your first name" size="70" id="username" required>
+        <input name="lname" type="text" placeholder="Enter your surname name" size="70" id="username" required>
+        <input name="email" type="text" placeholder="Enter your email address" size="70" id="mail" required>
+        <input name="place" type="text" placeholder="Enter your location" size="70" id="place" required>
+        <input name="description" type="text" placeholder="Enter your description" size="70" id="description" required>
+        Select Avatar (max 16 MB) : <input id="file" type="file" name="avatar"  accept=".jpeg, .png" onchange="sizeCheck()" required/>
+        <input name="btn_submit" type="submit" value="Submit" class="create-acc"id="submit">
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

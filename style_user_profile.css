@@ -1,0 +1,115 @@
+body {
+	font-family:Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+	color: #484848;
+}
+
+#user {
+	margin-left: 34%;
+	margin-top: -26%;
+	width: 35%;
+}
+
+#sel {
+	margin-left: 34%;
+	margin-top: 2%;
+	width: 35%;
+}
+
+#info {
+	margin-left: 7%;
+	width: 22.5%;
+}
+
+#user_avatar {
+	margin-left: 7%;
+}
+
+#myhouse {
+	margin-left: 34%;
+	margin-top: 3%;
+	display: block;
+}
+
+#plans {
+	margin-left: 34%;
+}
+
+#past {
+	margin-left: 34%;
+}
+
+.titlos {
+	font-size: 150%;
+}
+
+ul {
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+	float: left;
+	display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.links{
+	font-family:Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+	color: #484848;
+	text-decoration: none;
+	font-size: 120%;
+	float: right;
+	margin-left: 2%;
+	margin-top: 1%;
+}
+
+.links:hover {
+	text-decoration: underline;
+}
+
+#rate_button {
+	margin-left: 34%;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

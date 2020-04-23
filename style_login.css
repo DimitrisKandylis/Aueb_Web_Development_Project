@@ -1,0 +1,100 @@
+body {
+	width:110%;
+	margin:0 auto;
+	padding:0;
+	line-height:1.4;
+	font-family:Georgia,"Times New Roman", Times;
+}
+
+h1 {
+	margin-left: 45%;
+	color: #484848;
+}
+
+#login {
+	width: 25%;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+#login_button {
+	margin: 10px 10px 10px 0;
+}
+
+#visible {
+	margin-top: 4%;
+}
+
+a {
+	color: #008489;
+	text-decoration: none;
+	margin-left: 51%;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+input[type=email] {
+	border: 1.5px solid;
+	border-color: #dbdbdb;
+	padding: 10px 4px;
+    border-radius: 3px;
+	color: black;
+	width: 150%
+}
+
+input[type=email]:focus {
+	border-color: #008489;
+}
+
+input[type=password] {
+	border: 1.5px solid;
+	border-color: #dbdbdb;
+	padding: 10px 4px;
+  border-radius: 3px;
+	color: black;
+	width: 150%
+}
+
+input[type=password]:focus {
+	border-color: #008489;
+}
+
+input[type=text] {
+	border: 1.5px solid;
+	border-color: #dbdbdb;
+	padding: 10px 4px;
+  border-radius: 3px;
+	color: black;
+	width: 150%
+}
+
+input[type=text]:focus {
+	border-color: #008489;
+}
+
+input[type=submit] {
+	background-color: #ff5a5f;
+	border: 1px solid;
+	border-color: #ff5a5f;
+	padding: 10px 4px;
+    border-radius: 3px;
+	color: white;
+	font-size: 120%;
+	width: 150%;
+}
+
+#prob {
+	width: 20%;
+	margin-left: 39%;
+	margin-right: 30%;
+}
+
+#sign_up {
+	margin-left: 5px;
+}
+
+#visible {
+	margin-left: 50%;
+}
